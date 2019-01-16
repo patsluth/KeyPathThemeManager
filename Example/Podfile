@@ -1,11 +1,17 @@
 use_frameworks!
 
+platform :ios, '9.0'
+
 target 'KeyPathThemeManager_Example' do
+	
+	use_frameworks!
+	inhibit_all_warnings!
+	
   pod 'KeyPathThemeManager', :path => '../'
+	pod 'Sluthware', :git => 'https://github.com/patsluth/Sluthware.git'
 
   target 'KeyPathThemeManager_Tests' do
     inherit! :search_paths
-
-    
   end
+	
 end

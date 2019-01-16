@@ -1,0 +1,31 @@
+{
+  "name": "KeyPathThemeManager",
+  "version": "0.1.0",
+  "summary": "An iOS theme manager use Swift 4 KeyPaths",
+  "description": "An iOS theme manager use Swift 4 KeyPaths",
+  "homepage": "https://github.com/patsluth/KeyPathThemeManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "patsluth": "pat.sluth@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/patsluth/KeyPathThemeManager.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/patsluth",
+  "swift_version": "4.2",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Sluthware": [
+
+    ]
+  },
+  "frameworks": "UIKit",
+  "source_files": "KeyPathThemeManager/Classes/**/*"
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E7A2355A3C53D77B3D881D4 /* Pods_KeyPathThemeManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43B2D6DBD2A3ABEBAA06737 /* Pods_KeyPathThemeManager_Example.framework */; };
+		2E21464B21EA640B0056AD5B /* ThemeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21464A21EA640B0056AD5B /* ThemeDataSource.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,10 +31,11 @@
 /* Begin PBXFileReference section */
 		03BD38333E92B59D917F3591 /* Pods-KeyPathThemeManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPathThemeManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-KeyPathThemeManager_Tests/Pods-KeyPathThemeManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		15345649674B73628825F432 /* Pods_KeyPathThemeManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyPathThemeManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E21464A21EA640B0056AD5B /* ThemeDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDataSource.swift; sourceTree = "<group>"; };
 		2FB08B9895C889224D2180A1 /* Pods-KeyPathThemeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPathThemeManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KeyPathThemeManager_Tests/Pods-KeyPathThemeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43960F317176DD799421EF92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43960F317176DD799421EF92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5F7C1407C27F7B10AEE4B400 /* Pods-KeyPathThemeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPathThemeManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-KeyPathThemeManager_Example/Pods-KeyPathThemeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		60149A5489D5633478FF135E /* KeyPathThemeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KeyPathThemeManager.podspec; path = ../KeyPathThemeManager.podspec; sourceTree = "<group>"; };
+		60149A5489D5633478FF135E /* KeyPathThemeManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeyPathThemeManager.podspec; path = ../KeyPathThemeManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* KeyPathThemeManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyPathThemeManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +48,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C443CE0104355F7ED3D90970 /* Pods-KeyPathThemeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyPathThemeManager_Example.release.xcconfig"; path = "Target Support Files/Pods-KeyPathThemeManager_Example/Pods-KeyPathThemeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F43B2D6DBD2A3ABEBAA06737 /* Pods_KeyPathThemeManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyPathThemeManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F99F78442D2EF4811A1EAE94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F99F78442D2EF4811A1EAE94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2E21464A21EA640B0056AD5B /* ThemeDataSource.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +150,6 @@
 				2FB08B9895C889224D2180A1 /* Pods-KeyPathThemeManager_Tests.debug.xcconfig */,
 				03BD38333E92B59D917F3591 /* Pods-KeyPathThemeManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +173,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				1F4B5C6A23036FB596551455 /* [CP] Embed Pods Frameworks */,
+				738E7A2CDA9C4BCD9F32909B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,15 +210,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KZ3284WPA2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KZ3284WPA2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -262,7 +266,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F4B5C6A23036FB596551455 /* [CP] Embed Pods Frameworks */ = {
+		738E7A2CDA9C4BCD9F32909B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,18 +274,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KeyPathThemeManager_Example/Pods-KeyPathThemeManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KeyPathThemeManager/KeyPathThemeManager.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KeyPathThemeManager_Example/Pods-KeyPathThemeManager_Example-resources.sh",
+				"${PODS_ROOT}/Sluthware/Sluthware/Resources/UIKit/DebugViewController.xib",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeyPathThemeManager.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DebugViewController.nib",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyPathThemeManager_Example/Pods-KeyPathThemeManager_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyPathThemeManager_Example/Pods-KeyPathThemeManager_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8EB9F50421A7021699413AAA /* [CP] Check Pods Manifest.lock */ = {
@@ -337,6 +341,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				2E21464B21EA640B0056AD5B /* ThemeDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +395,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -443,12 +450,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -482,7 +491,9 @@
 			baseConfigurationReference = 5F7C1407C27F7B10AEE4B400 /* Pods-KeyPathThemeManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZ3284WPA2;
 				INFOPLIST_FILE = KeyPathThemeManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -497,7 +508,9 @@
 			baseConfigurationReference = C443CE0104355F7ED3D90970 /* Pods-KeyPathThemeManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KZ3284WPA2;
 				INFOPLIST_FILE = KeyPathThemeManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -511,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FB08B9895C889224D2180A1 /* Pods-KeyPathThemeManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KZ3284WPA2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03BD38333E92B59D917F3591 /* Pods-KeyPathThemeManager_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KZ3284WPA2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

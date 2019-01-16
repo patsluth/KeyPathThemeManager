@@ -1,0 +1,6 @@
+framework module KeyPathThemeManager {
+  umbrella header "KeyPathThemeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
